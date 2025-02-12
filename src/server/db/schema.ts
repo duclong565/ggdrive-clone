@@ -1,4 +1,5 @@
-import { create } from "domain";
+import "server-only";
+
 import {
   int,
   text,
@@ -6,7 +7,6 @@ import {
   singlestoreTableCreator,
   bigint,
 } from "drizzle-orm/singlestore-core";
-import { url } from "inspector";
 
 export const createTable = singlestoreTableCreator(
   (name) => `drive_tutorial_${name}`,
