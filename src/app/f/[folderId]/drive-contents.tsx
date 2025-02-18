@@ -4,7 +4,7 @@ import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 
 import { Upload, ChevronRight } from "lucide-react";
 import { Button } from "~/components/ui/button";
-import { FileRow, FolderRow } from "~/app/file-row";
+import { FileRow, FolderRow } from "~/app/f/[folderId]/file-row";
 import type { files_table, folders_table } from "~/server/db/schema";
 import Link from "next/link";
 import { UploadButton } from "~/components/uploadthing";
